@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< Updated upstream
   productGUID: 2d6999e7c905c93479578eb2e9e389c5
+=======
+  productGUID: 85b142c1cb1f94048afc9fecd4752ddd
+>>>>>>> Stashed changes
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -16,7 +20,11 @@ PlayerSettings:
   productName: VBTTSurgeryTest
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
+<<<<<<< Updated upstream
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+=======
+  m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
+>>>>>>> Stashed changes
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -42,12 +50,21 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
+<<<<<<< Updated upstream
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
+=======
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 0
+>>>>>>> Stashed changes
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
@@ -68,7 +85,11 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
+<<<<<<< Updated upstream
   androidUseSwappy: 0
+=======
+  androidUseSwappy: 1
+>>>>>>> Stashed changes
   androidBlitType: 0
   androidResizableWindow: 0
   androidDefaultWindowWidth: 1920
@@ -79,7 +100,11 @@ PlayerSettings:
   androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+<<<<<<< Updated upstream
   runInBackground: 1
+=======
+  runInBackground: 0
+>>>>>>> Stashed changes
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -95,7 +120,11 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
+<<<<<<< Updated upstream
   gpuSkinning: 1
+=======
+  gpuSkinning: 0
+>>>>>>> Stashed changes
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -117,7 +146,11 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
+<<<<<<< Updated upstream
   switchQueueCommandMemory: 0
+=======
+  switchQueueCommandMemory: 1048576
+>>>>>>> Stashed changes
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
@@ -137,7 +170,11 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
+<<<<<<< Updated upstream
   bundleVersion: 0.1
+=======
+  bundleVersion: 1.0
+>>>>>>> Stashed changes
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -158,19 +195,31 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< Updated upstream
   applicationIdentifier:
     Android: com.unity.template.vr
     Standalone: com.Unity-Technologies.VR-Template
+=======
+  applicationIdentifier: {}
+>>>>>>> Stashed changes
   buildNumber:
     Standalone: 0
     VisionOS: 0
     iPhone: 0
     tvOS: 0
+<<<<<<< Updated upstream
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 32
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
+=======
+  overrideDefaultApplicationIdentifier: 0
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 22
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
+>>>>>>> Stashed changes
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -246,9 +295,15 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
+<<<<<<< Updated upstream
   clonedFromGUID: 14e3da668dfd3496fb0ecd9272fcff02
   templatePackageId: com.unity.template.vr@6.1.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
+>>>>>>> Stashed changes
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -257,7 +312,11 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
+<<<<<<< Updated upstream
   AndroidTargetArchitectures: 2
+=======
+  AndroidTargetArchitectures: 1
+>>>>>>> Stashed changes
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -318,61 +377,106 @@ PlayerSettings:
     - m_Textures: []
       m_Width: 192
       m_Height: 192
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
+<<<<<<< Updated upstream
       m_Kind: 0
+=======
+      m_Kind: 1
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 192
       m_Height: 192
+<<<<<<< Updated upstream
       m_Kind: 1
+=======
+      m_Kind: 0
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 144
       m_Height: 144
+<<<<<<< Updated upstream
       m_Kind: 1
+=======
+      m_Kind: 0
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 96
       m_Height: 96
+<<<<<<< Updated upstream
       m_Kind: 1
+=======
+      m_Kind: 0
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 72
       m_Height: 72
+<<<<<<< Updated upstream
       m_Kind: 1
+=======
+      m_Kind: 0
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 48
       m_Height: 48
+<<<<<<< Updated upstream
       m_Kind: 1
+=======
+      m_Kind: 0
+>>>>>>> Stashed changes
       m_SubKind: 
     - m_Textures: []
       m_Width: 36
       m_Height: 36
+<<<<<<< Updated upstream
       m_Kind: 1
       m_SubKind: 
   - m_BuildTarget: iPhone
@@ -540,6 +644,16 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+=======
+      m_Kind: 0
+      m_SubKind: 
+  m_BuildTargetBatching: []
+  m_BuildTargetShaderSettings: []
+  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobMode: []
+  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetVRSettings: []
+>>>>>>> Stashed changes
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
   openGLRequireES31: 0
@@ -548,18 +662,29 @@ PlayerSettings:
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
+<<<<<<< Updated upstream
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
     m_EncodingQuality: 1
+=======
+    VisionOS: 1
+    iPhone: 1
+    tvOS: 1
+  m_BuildTargetGroupLightmapEncodingQuality: []
+>>>>>>> Stashed changes
   m_BuildTargetGroupHDRCubemapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
+<<<<<<< Updated upstream
   m_BuildTargetDefaultTextureCompressionFormat:
   - m_BuildTarget: Android
     m_Format: 3
+=======
+  m_BuildTargetDefaultTextureCompressionFormat: []
+>>>>>>> Stashed changes
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -695,7 +820,11 @@ PlayerSettings:
   switchSystemResourceMemory: 16777216
   switchSupportedNpadStyles: 22
   switchNativeFsCacheSize: 32
+<<<<<<< Updated upstream
   switchIsHoldTypeHorizontal: 0
+=======
+  switchIsHoldTypeHorizontal: 1
+>>>>>>> Stashed changes
   switchSupportedNpadCount: 8
   switchEnableTouchScreen: 1
   switchSocketConfigEnabled: 0
@@ -708,8 +837,13 @@ PlayerSettings:
   switchSocketBufferEfficiency: 4
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
+<<<<<<< Updated upstream
   switchUseNewStyleFilepaths: 0
   switchUseLegacyFmodPriorities: 1
+=======
+  switchUseNewStyleFilepaths: 1
+  switchUseLegacyFmodPriorities: 0
+>>>>>>> Stashed changes
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
@@ -745,7 +879,11 @@ PlayerSettings:
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
+<<<<<<< Updated upstream
   ps4EnterButtonAssignment: 1
+=======
+  ps4EnterButtonAssignment: 2
+>>>>>>> Stashed changes
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
@@ -768,7 +906,11 @@ PlayerSettings:
   ps4UseAudio3dBackend: 0
   ps4UseLowGarlicFragmentationMode: 1
   ps4SocialScreenEnabled: 0
+<<<<<<< Updated upstream
   ps4ScriptOptimizationLevel: 0
+=======
+  ps4ScriptOptimizationLevel: 2
+>>>>>>> Stashed changes
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -794,7 +936,11 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
+<<<<<<< Updated upstream
   webGLMemorySize: 16
+=======
+  webGLMemorySize: 32
+>>>>>>> Stashed changes
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
@@ -817,6 +963,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
+<<<<<<< Updated upstream
   scriptingDefineSymbols:
     Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2
     CloudRendering: UNITY_POST_PROCESSING_STACK_V2
@@ -837,6 +984,12 @@ PlayerSettings:
   scriptingBackend:
     Android: 1
     Standalone: 1
+=======
+  scriptingDefineSymbols: {}
+  additionalCompilerArguments: {}
+  platformArchitecture: {}
+  scriptingBackend: {}
+>>>>>>> Stashed changes
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel: {}
@@ -906,8 +1059,12 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
+<<<<<<< Updated upstream
   cloudServicesEnabled:
     UNet: 1
+=======
+  cloudServicesEnabled: {}
+>>>>>>> Stashed changes
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -925,6 +1082,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
+<<<<<<< Updated upstream
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 5a9d32dc-5bc1-448a-9f55-f1a4ba25038f
@@ -932,6 +1090,15 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: VBTTSurgeryTest 2025-02-19_17-43-43
   organizationId: thewhitealpha
+=======
+  activeInputHandler: 0
+  windowsGamepadBackendHint: 0
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 
+  organizationId: 
+>>>>>>> Stashed changes
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
