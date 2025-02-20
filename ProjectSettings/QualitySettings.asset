@@ -4,11 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-<<<<<<< Updated upstream
-  m_CurrentQuality: 1
-=======
   m_CurrentQuality: 5
->>>>>>> Stashed changes
   m_QualitySettings:
   - serializedVersion: 3
     name: Very Low
@@ -31,14 +27,9 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-<<<<<<< Updated upstream
-    useLegacyDetailDistribution: 1
-    vSyncCount: 0
-=======
     useLegacyDetailDistribution: 0
     vSyncCount: 0
     realtimeGICPUUsage: 25
->>>>>>> Stashed changes
     lodBias: 0.3
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -53,11 +44,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-<<<<<<< Updated upstream
-    customRenderPipeline: {fileID: 11400000, guid: fd42a132493b1f143a4963adcd530ef1, type: 2}
-=======
     customRenderPipeline: {fileID: 0}
->>>>>>> Stashed changes
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -83,19 +70,6 @@ QualitySettings:
     skinWeights: 2
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
-<<<<<<< Updated upstream
-    anisotropicTextures: 1
-    antiAliasing: 4
-    softParticles: 0
-    softVegetation: 0
-    realtimeReflectionProbes: 1
-    billboardsFaceCameraPosition: 1
-    useLegacyDetailDistribution: 1
-    vSyncCount: 0
-    lodBias: 0.4
-    maximumLODLevel: 0
-    enableLODCrossFade: 0
-=======
     anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
@@ -108,7 +82,6 @@ QualitySettings:
     lodBias: 0.4
     maximumLODLevel: 0
     enableLODCrossFade: 1
->>>>>>> Stashed changes
     streamingMipmapsActive: 0
     streamingMipmapsAddAllCameras: 1
     streamingMipmapsMemoryBudget: 512
@@ -120,11 +93,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-<<<<<<< Updated upstream
-    customRenderPipeline: {fileID: 11400000, guid: fd42a132493b1f143a4963adcd530ef1, type: 2}
-=======
     customRenderPipeline: {fileID: 0}
->>>>>>> Stashed changes
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -156,14 +125,9 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-<<<<<<< Updated upstream
-    useLegacyDetailDistribution: 1
-    vSyncCount: 1
-=======
     useLegacyDetailDistribution: 0
     vSyncCount: 1
     realtimeGICPUUsage: 25
->>>>>>> Stashed changes
     lodBias: 0.7
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -210,14 +174,9 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-<<<<<<< Updated upstream
-    useLegacyDetailDistribution: 1
-    vSyncCount: 1
-=======
     useLegacyDetailDistribution: 0
     vSyncCount: 1
     realtimeGICPUUsage: 50
->>>>>>> Stashed changes
     lodBias: 1
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -264,14 +223,9 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-<<<<<<< Updated upstream
-    useLegacyDetailDistribution: 1
-    vSyncCount: 1
-=======
     useLegacyDetailDistribution: 0
     vSyncCount: 1
     realtimeGICPUUsage: 50
->>>>>>> Stashed changes
     lodBias: 1.5
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -309,31 +263,18 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-<<<<<<< Updated upstream
-    skinWeights: 4
-    globalTextureMipmapLimit: 0
-    textureMipmapLimitSettings: []
-    anisotropicTextures: 2
-    antiAliasing: 4
-=======
     skinWeights: 255
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
     anisotropicTextures: 2
     antiAliasing: 2
->>>>>>> Stashed changes
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-<<<<<<< Updated upstream
-    useLegacyDetailDistribution: 1
-    vSyncCount: 1
-=======
     useLegacyDetailDistribution: 0
     vSyncCount: 1
     realtimeGICPUUsage: 100
->>>>>>> Stashed changes
     lodBias: 2
     maximumLODLevel: 0
     enableLODCrossFade: 1
@@ -348,11 +289,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-<<<<<<< Updated upstream
-    customRenderPipeline: {fileID: 11400000, guid: cf6a652e94858004a93399f0a3dac507, type: 2}
-=======
     customRenderPipeline: {fileID: 0}
->>>>>>> Stashed changes
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -365,18 +302,6 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
-<<<<<<< Updated upstream
-    Android: 1
-    Lumin: 5
-    Nintendo 3DS: 5
-    Nintendo Switch: 5
-    PS4: 5
-    PS5: 5
-    PSP2: 2
-    Server: 0
-    Stadia: 5
-    Standalone: 5
-=======
     Android: 2
     EmbeddedLinux: 5
     GameCoreScarlett: 5
@@ -390,7 +315,6 @@ QualitySettings:
     Stadia: 5
     Standalone: 5
     VisionOS: 5
->>>>>>> Stashed changes
     WebGL: 3
     Windows Store Apps: 5
     XboxOne: 5
