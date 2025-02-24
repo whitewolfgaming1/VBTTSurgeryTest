@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/VBTTSurgeryTestScene.unity
+    guid: 7401851c1bec98f43a2826a7f4a6b3ee
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 94bc5c63618d37c45addcb1562793477, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 31b432ad479d65b43897bb84308a12a4, type: 2}
