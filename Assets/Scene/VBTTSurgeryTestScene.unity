@@ -2982,12 +2982,31 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 536b8ebe511582d4d92d316983399427, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1100842992}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 536b8ebe511582d4d92d316983399427, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1340062306}
   m_SourcePrefab: {fileID: 100100000, guid: 536b8ebe511582d4d92d316983399427, type: 3}
 --- !u!4 &1340062305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 536b8ebe511582d4d92d316983399427, type: 3}
   m_PrefabInstance: {fileID: 1340062304}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1340062306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100842988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9496f76008a324e9afd1853261a6a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planeDebug: {fileID: 0}
+  target: {fileID: 0}
+  crossSectionMaterial: {fileID: 0}
+  cutForce: 2000
 --- !u!1001 &1393215657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4404,7 +4423,6 @@ GameObject:
   - component: {fileID: 2123785099}
   - component: {fileID: 2123785103}
   - component: {fileID: 2123785102}
-  - component: {fileID: 2123785101}
   - component: {fileID: 2123785104}
   m_Layer: 0
   m_Name: XR Origin (VR)
@@ -4446,20 +4464,6 @@ Transform:
   - {fileID: 1062125190}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2123785101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123785097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 2123785103}
-  m_DelayTime: 0
 --- !u!114 &2123785102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4533,7 +4537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 2123785103}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 1.25
   m_EnableStrafe: 0
   m_EnableFly: 0
   m_UseGravity: 1
