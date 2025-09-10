@@ -48,17 +48,18 @@ public class MouseFollow3D : MonoBehaviour
         }
     }
 
-    // Example interaction with other objects:
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        // Example: print the name of the object the scalpel touches
-        Debug.Log("Scalpel touched: " + other.name);
+        if (onlyFollowWhenMouseDown && !Input.GetMouseButton(0))
+           return;
 
-        // You can add custom logic here, like cutting or changing states
-        // Example:
-        // if (other.CompareTag("Cuttable"))
-        // {
-        //     other.GetComponent<CuttableObject3D>().Cut();
-        // }
+        if (other.CompareTag("Cuttable"))
+        {
+            var slicer = other.GetComponent<SliceAndMove>();
+            if (slicer != null && !slicer.IsSliced)
+            {
+                slicer.SliceObject();
+            }
+        }
     }
 }
