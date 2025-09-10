@@ -9,6 +9,9 @@ public Material crossSectionMaterial;
     public Vector3 moveDirection = Vector3.right; // Direction to move halves (can set in Inspector)
     public float moveSpeed = 0.5f; // Units per second
 
+    public SlicingManager slicingManager; // Assign in inspector or via script
+    public bool IsSliced => isSliced; // Add this property
+    
     private bool isSliced = false;
     private GameObject upperHullObj, lowerHullObj;
 
@@ -24,7 +27,7 @@ public Material crossSectionMaterial;
         }
     }
 
-    void SliceObject() {
+    public void SliceObject() {
         // Define the plane (example: world XZ plane at this object's position)
         EzySlice.Plane slicePlane = new EzySlice.Plane(transform.up, transform.position);
 
